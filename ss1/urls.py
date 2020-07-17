@@ -20,6 +20,6 @@ from index import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    path('new', views.new_post),
+    path('new1', views.new_post),
     
 ]
